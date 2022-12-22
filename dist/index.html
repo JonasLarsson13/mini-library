@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Library</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="/dist/index.html" class="logo">
+            <h2>Mini</h2>
+            <h1>Library</h1>
+        </a>
+        <aside class="search">
+            <input type="text" placeholder="Title or Author" />
+            <button>
+                Search Book
+            </button>
+        </aside>
+    </header>
+    <section class="loader-container">
+        <span class="loader"></span>
+    </section>
+    <main>
+        <h1 id="page-title">
+            8 Classic Childrens books
+        </h1>
+        <span id="show-all-books">
+            Show all
+        </span>
+        <section id="books">
+        </section>
+        <section id="book-info">
+            <figure id="close-book-info">+</figure>
+            <article class="book-info_container">
+                <figure id="book-info-cover"></figure>
+                <aside id="book-info-text">
+                    <section>
+                        <h2 id="book-title">Book title</h2>
+                        <h4 id="book-author">Book author</h4>
+                    </section>
+                    <section>
+                        <p id="book-plot">
+                            Back on current bestseller lists, likely thanks to Disney’s recent movie adaptation, this groundbreaking 1962 novel features a heroine in a genre-bending science fiction–fantasy story about a girl tasked with traveling through space and time to save her scientist father—and the world. A forerunner of modern young-adult sci-fi and fantasy, including The Hunger Games and Harry Potter, and winner of the 1963 Newbery Medal, this story continues to thrill today. Check out more books you need to read before the movie version comes out.
+                        </p>
+                        <aside class="book-info-fact">
+                            <span>
+                                <b>
+                                    Audience:
+                                </b>
+                                <p id="book-audience"></p>
+                            </span>
+                            <span>
+                                <b>
+                                    First published:
+                                </b>
+                                <p id="book-first_published"></p>
+                            </span>
+                            <span>
+                                <b>
+                                    Pages: 
+                                </b>
+                                <p id="book-pages"></p>
+                            </span>
+                            <span>
+                                <b>
+                                    Publisher:
+                                </b>
+                                <p id="book-publisher"></p>
+                            </span>
+                        </aside>
+                        <button>Oh, I want to read it!</button>
+                    </section>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <script src="js/index.js" type="module"></script>
+</body>
+</html>
